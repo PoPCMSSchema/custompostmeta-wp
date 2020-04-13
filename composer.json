@@ -19,9 +19,9 @@
     "prefer-stable": true,
     "require": {
         "php" : "~7.1",
-        "getpop/postmeta": "^1.0@dev",
-        "getpop/posts-wp": "^1.0@dev",
-        "getpop/migrate-postmeta-wp": "^1.0@dev"
+        "getpop/postmeta": "~0.1",
+        "getpop/posts-wp": "~0.1",
+        "getpop/migrate-postmeta-wp": "~0.1"
     },
     "require-dev": {
         "phpunit/phpunit" : ">=7.0",
