@@ -21,7 +21,7 @@
         "php" : "~7.1",
         "getpop/postmeta": "~0.1",
         "getpop/posts-wp": "~0.1",
-        "getpop/migrate-postmeta-wp": "dev-master"
+        "getpop/migrate-postmeta-wp": "~0.1"
     },
     "require-dev": {
         "phpstan/phpstan": "^0.12",
