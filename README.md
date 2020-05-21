@@ -20,12 +20,13 @@ Via Composer
 composer require getpop/postmeta-wp
 ```
 
-<!--
 ## Usage
 
+Initialize the component:
+
 ``` php
+\PoP\PostMetaWP\Component::initialize();
 ```
--->
 
 ## Standards
 
