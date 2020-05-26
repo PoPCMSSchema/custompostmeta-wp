@@ -25,7 +25,9 @@ composer require getpop/postmeta-wp
 Initialize the component:
 
 ``` php
-\PoP\PostMetaWP\Component::initialize();
+\PoP\Root\ComponentLoader::initializeComponents([
+    \PoP\PostMetaWP\Component::class,
+]);
 ```
 
 ## Standards
