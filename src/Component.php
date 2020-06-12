@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace PoP\PostMetaWP;
+namespace PoP\CustomPostMetaWP;
 
 use PoP\Root\Component\AbstractComponent;
 
@@ -16,7 +16,7 @@ class Component extends AbstractComponent
     public static function getDependedComponentClasses(): array
     {
         return [
-            \PoP\PostMeta\Component::class,
+            \PoP\CustomPostMeta\Component::class,
             \PoP\PostsWP\Component::class,
         ];
     }
@@ -24,7 +24,7 @@ class Component extends AbstractComponent
     public static function getDependedMigrationPlugins(): array
     {
         return [
-            'migrate-postmeta-wp',
+            'migrate-custompostmeta-wp',
         ];
     }
 }
