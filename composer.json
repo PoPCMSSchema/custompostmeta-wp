@@ -1,5 +1,5 @@
 {
-    "name": "getpop/custompostmeta-wp",
+    "name": "pop-schema/custompostmeta-wp",
     "type": "library",
     "description": "Implementation for WordPress of contracts from package \"Post Meta\"",
     "keywords": [
@@ -19,9 +19,9 @@
     "prefer-stable": true,
     "require": {
         "php": "~7.2",
-        "getpop/custompostmeta": "dev-master",
-        "getpop/customposts-wp": "dev-master",
-        "getpop/migrate-custompostmeta-wp": "dev-master"
+        "pop-schema/custompostmeta": "dev-master",
+        "pop-schema/customposts-wp": "dev-master",
+        "pop-schema/migrate-custompostmeta-wp": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": ">=8.5",
@@ -30,12 +30,12 @@
     },
     "autoload": {
         "psr-4": {
-            "PoP\\CustomPostMetaWP\\": "src"
+            "PoPSchema\\CustomPostMetaWP\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "PoP\\CustomPostMetaWP\\": "tests"
+            "PoPSchema\\CustomPostMetaWP\\": "tests"
         }
     },
     "scripts": {

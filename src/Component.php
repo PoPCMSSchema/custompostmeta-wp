@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace PoP\CustomPostMetaWP;
+namespace PoPSchema\CustomPostMetaWP;
 
 use PoP\Root\Component\AbstractComponent;
 
@@ -16,8 +16,8 @@ class Component extends AbstractComponent
     public static function getDependedComponentClasses(): array
     {
         return [
-            \PoP\CustomPostMeta\Component::class,
-            \PoP\CustomPostsWP\Component::class,
+            \PoPSchema\CustomPostMeta\Component::class,
+            \PoPSchema\CustomPostsWP\Component::class,
         ];
     }
 
